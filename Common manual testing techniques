@@ -1,0 +1,21 @@
+COMMON MANUAL TESTING TECHNIQUES
+This type of testing is encouraged when no automation is involved. It is done to meet the user’s requirements for efficiency, adaptability, and usability. In this technique instead of using software, the objective is achieved manually. The different phases of manual testing in the software development life cycle can be summarised as:
+I.	Requirement Analysis
+II.	Test planning
+III.	Test case design
+IV.	Test environment setup
+V.	Test case execution
+VI.	Test closure activity
+This testing is executed in four given steps:
+I.	Unit testing
+II.	Integration testing
+III.	System testing
+IV.	Acceptance testing
+The above manual testing steps can be better understood by approximating the scenario of a businessman delivering mangoes to clients after receiving them from a mango orchard. The scenario of plucking individual mangoes from trees can be taken as unit testing, where each unit is analyzed to determine whether it is ready to be accepted (whether it is ripe, eaten by birds, etc.). Integration testing can be taken as the assembly of each mango in a container is not harming them, because when we organize, we cannot compress them otherwise the pressure will spoil them. System testing can be referred to as the process of transferring the item from the orchard to the client’s place, which does not cause any harm to the mangoes. Here, testing will include the packets organization to avoid any wear and tear in the item. Acceptance testing can be calculated in terms of UAT (user acceptance testing) and BAT (business acceptance testing). UAT refers to the acceptance of mangoes by the user and how satisfied a user is depending on requirement analysis like taste, ripe, or anything else. Business acceptance testing depends on the amount of profit this item can bring, like for example if the mango size or appearance is not enough good enough, it will not attract customers and will not result it into any profit. 
+The testing techniques includes:
+I.	Black box testing
+II.	White box testing
+III.	Grey box testing
+Black box testing refers to the technique where we are only concerned about output when any range of input is given. It is least relevant to what is inside the system, what algorithm, and what workflow governs the system. We are only concerned about our requirement analysis, here test planning will not reach out to test code, instead it will only reach out to its functionality. The key techniques of black box testing include equivalence partitioning, boundary value anaylsis, decision table testing, state transition testing, use case testing.
+White box testing refers to the technique where we are concerned about internal structure, workflow, code and every element of the system. Here, testing will evaluate the performance of each bit and every executable line of code will be tested at least once. The technique involves statement coverage, decision coverage, condition coverage, path coverage and loop testing.
+Grey box testing takes benefits of both black box testing and white box testing and to meet the user requirements test planning is done accordingly.
